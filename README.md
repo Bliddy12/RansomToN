@@ -35,6 +35,7 @@ git clone https://github.com/Bliddy12/RansomToN.git
 cd RansomToN
 ```
 Make sure to change the IP on client.cpp line 14 to the server IP
+Also can Change Default port(2222) as well
 ```
 const char *SERVER_IP = "<IP>";
 ```
