@@ -2,7 +2,6 @@
 
 RansomToN is a userland-style rootkit simulator, built in C++ with a command-line interface. It mimics various malware functions for red teaming, cybersecurity research, and malware analysis training.
 
-
 # Features
 
 - Message Sender – Simulate ransom notes or popups
@@ -19,7 +18,7 @@ RansomToN is a userland-style rootkit simulator, built in C++ with a command-lin
 
 - Windows Defender and most AVs currently do not flag this as malicious (subject to change).
   
--This project does not contain real ransomware encryption, destructive payloads, or persistence mechanisms. It is intended for learning and educational labs only.
+- This project does not contain real ransomware encryption, destructive payloads, or persistence mechanisms. It is intended for learning and educational labs only.
 
 # Installation
 
