@@ -1,14 +1,14 @@
 # What Is RansomToN 
 
-RansomToN is a userland-style rootkit simulator, built in C++ with a command-line interface. It mimics various malware functions for red teaming, cybersecurity research, and malware analysis training.
+RansomToN is a Windows userland-style rootkit simulator, built in C++ with a command-line interface. It mimics various malware functions for red teaming, cybersecurity research, and malware analysis training.
 
 # Features
 
 - Message Sender – Simulate ransom notes or popups
 
-- Keylogger – Logs keystrokes (demo-only)
+- Keylogger – Logs keystrokes and saves it to txt file(assets directory)
 
-- Screen Recorder – Capture user activity (Windows API)
+- Screen Recorder – Capture user activity and save it to file(assets directory)
 
 - Remote Shutdown – Trigger remote shutdown on target (local network)
 
@@ -20,7 +20,7 @@ RansomToN is a userland-style rootkit simulator, built in C++ with a command-lin
   
 - This project does not contain real ransomware encryption, destructive payloads, or persistence mechanisms. It is intended for learning and educational labs only.
 
-# Installation
+# Installation (Windows Only)
 
 For server:
 ```
