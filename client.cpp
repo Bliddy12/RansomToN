@@ -11,7 +11,7 @@
 
 using namespace std;
 
-const char *SERVER_IP = "192.168.1.108"; 
+const char *SERVER_IP = "<IP>"; 
 const int PORT = 2222; 
 
 atomic<int> state = 0;
